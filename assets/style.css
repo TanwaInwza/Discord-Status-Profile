@@ -15,7 +15,17 @@ body {
     font-family: 'Arial', sans-serif;
     color: #fff;
 }
-
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    background-color: transparent;  /* No background color */
+    color: black;  /* Text color */
+}
 .profile-card {
     height: auto;
     display: flex;

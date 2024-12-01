@@ -15,6 +15,10 @@
     <br> 
 </p>
 
+✨ Example website <a name = "Ex"></a>
+
+- https://discord.slamy.in.th/
+
 🏁 Getting Started <a name = "How to use"></a>
 
 First you need to join our discord https://discord.gg/8QQpMj2KT3.

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="profile-card">
+            <img src="assets/images/unknow.png" alt="User Avatar" id="userAvatar">
+            <h3 id="userGlobalName">
+                <div class="d-flex align-items-center" id="loadingContainer">
+                    <div class="spinner-border spinner-border-sm" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="ms-2 mb-0">Loading...</p>
+                </div>
+            </h3>
+            
+            <p id="userInfo" class="justify-start"></p>
+            <p id="des"></p>
+
+            <!-- User status indicator -->
+            <div class="status">
+                Status: <span id="statusIndicator" class="status-indicator"></span>
+                <span id="statusMessage" class="status-message">Loading...</span>
+            </div>
+
+            <!-- <div class="links">
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Website</a>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="/assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: "Sarabun", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.profile-card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #111;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.profile-card h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.profile-card p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.profile-card .status {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    color: #b6b6b6;
+}
+
+.profile-card .links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.profile-card .links a {
+    color: #ff5e62;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.profile-card .links a:hover {
+    color: #ff9966;
+}
+
+/* New Styles for Status Indicator */
+.avatar-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.status-indicator {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray; /* Default to offline */
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.status-online {
+    background-color: green;
+}
+
+.status-idle {
+    background-color: yellow;
+}
+
+.status-dnd {
+    background-color: red;
+}
+
+.status-offline {
+    background-color: gray;
+}
